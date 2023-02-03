@@ -16,6 +16,8 @@ class Admin {
   std::string name;
   std::string username;
   std::string contactNumber;
+  void create();
+  void update();
 };
 
 #endif  // ELEXION_ENTITIES_ADMIN_H_
